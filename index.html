@@ -7,13 +7,22 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body class="box-border">
-    <div class="flex justify-between items-center font-semibold w-98/100 border-black border p-4 m-4">
-        <h1 class="text-5xl">My Cat Roxy</h1>
+    <div class="flex justify-between items-center font-semibold w-98/100 border-black p-4 m-4">
+        <h1 class="text-[350%]">My Cat Roxy</h1>
         <div class="flex gap-4">
-            <p>About Her</p>
-            <p>Likes and Dislikes</p>
-            <p>About Me</p>
+            <button class="p-2 border-solid bg-white hover:bg-gray-400 transition duration-500">About Her</button> 
+            <button class="p-2 bg-white hover:bg-gray-400 transition duration-500">Likes and Dislikes</button> 
+            <button class="p-2 bg-white hover:bg-gray-400 transition duration-500">About Me</button> 
         </div>
-    </div>    
+    </div> 
+
+    <div class="m-4 flex">
+        <div class="m-4 w-[30%] text-center">
+            <img src="cat-1.png" alt="Sleepy Cat" class="w-full">
+            <p class="text-sm mt-4">Roxy Sleeping</p>
+        </div>
+    
+        <img src="cat-1.png" alt="Sleepy Cat" class="m-4 w-[30%]">
+    </div>  
 </body>
 </html>
