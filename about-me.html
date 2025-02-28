@@ -6,9 +6,9 @@
     <title>My Cat | Homepage </title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body class="box-border">
+<body class="box-border min-h-full">
     <header class="box-border">
-        <div class="flex justify-between font-semibold w-98/100 border-black p-4 m-4">
+        <div class="flex justify-between font-semibold w-98/100 border-black m-4">
             <a href="index.html" class="text-6xl underline">
                 My Cat Roxy
             </a>
@@ -25,6 +25,28 @@
             </div>
         </div> 
     </header>
+    <div class="flex flex-col md:flex-row justify-between items-center max-w-[1500px] mx-auto gap-8">
+        <div class="flex flex-col justify-center items-center border-solid border w-full mx-auto">
+            <h1 class="text-6xl font-semibold">Hi, I'm Adam</h1>
+            <p class="m-4">I'm a new web-dev with just under a month of experience, and this is my first website. I'm looking to build more in the future!</p>
+            <h2 class="text-2xl underline mt-8 mb-4">If you have any questions, ask below: </h2>  
+            <form class="max-w-[400px]">
+                <fieldset class="mb-4">
+                    <label for="name">Enter Your Name: </label>
+                    <input class="w-[400px] border-solid border mb-4 bg-white hover:bg-gray-300 transition duration-300" id="name" name="name" type="text" placeholder="Name" required/>
+                    <label for="email">Enter Your Email: </label>
+                    <input class="w-[400px] border-solid border mb-4 bg-white hover:bg-gray-300 transition duration-300" id="email" name="email" type="text" placeholder="Email" required/>
+                    <label for="question">Enter your question: </label>
+                    <textarea class="w-[400px] border-solid border mb-4 bg-white hover:bg-gray-300 transition duration-300" id="question" name="questions" rows="4" placeholder="Enter your question"></textarea>
+                    <div class="flex justify-center">
+                        <input class="bg-white text-black border-solid border px-4 py-2 rounded-md hover:bg-gray-300 transition duration-300" type="submit" value="Submit">
+                    </div>
+                </fieldset> 
+            </form>
+        </div>
+        <div class="border-solid border">
+            <img src="loves.png">
+        </div>
+    </div>
 </body>
-<body></body>
 </html>

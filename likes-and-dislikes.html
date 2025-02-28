@@ -6,7 +6,7 @@
     <title>My Cat | Homepage </title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body class="box-border">
+<body class="box-border min-h-full">
     <header class="box-border">
         <div class="flex justify-between font-semibold w-98/100 border-black m-4">
             <a href="index.html" class="text-6xl underline">
@@ -25,5 +25,19 @@
             </div>
         </div> 
     </header>
+    <div class="flex m-4 gap-4 h-full flex-col lg:flex-row">
+        <div class="lg:w-1/2 p-4 h-full bg-gray-200 rounded-lg border-solid border flex-col flex items-center justify-center">
+            <p class="underline text-2xl">Likes</p>
+            <ul class="list-image-[url(check.png)]">
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+            </ul>
+        </div>
+        <div class="lg:w-1/2 p-4 h-full bg-gray-200 rounded-lg border-solid border flex items-center justify-center">
+            <p class="underline text-2xl">Dislikes</p>
+        </div>
+    </div>
 </body>
 </html>
