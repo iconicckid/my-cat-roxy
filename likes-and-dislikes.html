@@ -25,19 +25,28 @@
             </div>
         </div> 
     </header>
-    <div class="flex m-4 gap-4 h-full flex-col lg:flex-row">
-        <div class="lg:w-1/2 p-4 h-full bg-gray-200 rounded-lg border-solid border flex-col flex items-center justify-center">
-            <p class="underline text-2xl">Likes</p>
-            <ul class="list-image-[url(check.png)]">
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
+    <div class="flex m-4 mt-10 gap-4 h-full flex-col flex-row items-center justify-center">
+        <div class="min-w-1/3 p-4 h-full bg-gray-200 rounded-lg border-solid border flex-col flex items-center justify-center">
+            <p class="underline text-3xl mb-2">Likes</p>
+            <ul class="text-xl">
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
             </ul>
         </div>
-        <div class="lg:w-1/2 p-4 h-full bg-gray-200 rounded-lg border-solid border flex items-center justify-center">
-            <p class="underline text-2xl">Dislikes</p>
+        <div class="min-w-1/3 p-4 h-full bg-gray-200 rounded-lg border-solid border flex-col flex items-center justify-center">
+            <p class="underline text-2xl mb-2">Dislikes</p>
+            <ul class="text-xl">
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
+                <li class="before:content-['✔️'] before:inline-block before:mr-2">test</li>
+            </ul>
         </div>
     </div>
+    <div class="flex justify-center items-center border-solid border p-4 m-4">
+        <img class="w-250 h-auto transition duration-500 hover:brightness-50" src="filler.png" alt="My Cat">
+    </div>    
 </body>
 </html>
